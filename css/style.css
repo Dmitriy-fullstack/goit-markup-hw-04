@@ -215,7 +215,7 @@ border-radius: 0px 0px 4px 4px;
      
 }
 
-.social-icon:hover, .social-icon :focus {
+.social-item:hover svg, .social-item :focus svg {
 fill: #fff;
 }
 
