@@ -219,6 +219,36 @@ border-radius: 0px 0px 4px 4px;
 fill: #fff;
 }
 
+.clients-icon1 {
+width: 44px;
+height: 49px;
+}
+
+.clients-icon2 {
+    width: 40px;
+    height: 52px;
+    }
+
+.clients-icon3 {
+    width: 41px;
+    height: 43px;
+    }
+
+.clients-icon4 {
+    width: 80px;
+    height: 42px;
+    }
+
+.clients-icon5 {
+    width: 59px;
+    height: 47px;
+    }
+
+.clients-icon6 {
+    width: 89px;
+    height: 46px;
+    }
+
 .footer .social-icon {
     fill: white;
 }
