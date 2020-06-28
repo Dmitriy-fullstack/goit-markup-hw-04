@@ -23,6 +23,11 @@
     margin-left: auto;
 }
 
+.mail-icon {
+    width: 16px;
+    height: 15px;
+}
+
 /* стилизуем логотип */
 .logo {
     font-family: Raleway;
@@ -94,11 +99,27 @@ margin-right: 30px;
     color: var(--accent-color);
 }
 
+.contacts:hover svg {
+    fill: var(--accent-color);
+}
+
 .hero {
     width: 600px;
     padding: 200px 0px;
-    
+       
 }
+.hero-bgc {
+    max-width: 1600px;
+    max-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)
+    ), url(../img/hw4/hero.jpg);  
+     
+}
+
 
 .hero-title {
     font-family: Roboto;
@@ -113,8 +134,9 @@ margin-right: 30px;
     margin-right: auto;
     margin-bottom: 30px;
     margin-top: 0px;
+    color: var(--white-color);
     
-/* белый цвет добавлю после бекграунда на фоне */
+
 }
 .button-link {
     display: block;
@@ -139,6 +161,11 @@ margin-right: 30px;
 .advantages-item:not(:last-child) {
     margin-right: 30px;
 
+}
+
+.advantages-icon {
+    width: 70px;
+    height: 70px;
 }
 
 .work {
@@ -167,11 +194,41 @@ border-radius: 0px 0px 4px 4px;
 }
 .social-item {
     margin-bottom: 24px;
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    
+    
+}
+.social-item:hover, .social-item :focus {
+    background-color: var(--accent-color);
+    border-radius: 100px;
 }
 .social-item + .social-item {
     margin-left: 10px;
 }
 
+.social-icon {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+     
+}
+
+.social-icon:hover, .social-icon :focus {
+fill: #fff;
+}
+
+.footer .social-icon {
+    fill: white;
+}
+.footer .social-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 100px;
+}
+.footer .social-item:hover, .social-item:focus {
+    background-color: var(--accent-color);
+}
 
 .section-title {
     font-family: Roboto;

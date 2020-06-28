@@ -25,10 +25,16 @@
             <address class="address-list">
                 
                 <ul class="list address-list">
-                    <li class="item"><img src="./img/envelope_(hover).svg" alt="envelope">
-                        <a class="contacts link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="item"><img src="./img/smartphone.svg" alt="smartphone">
-                        <a class="contacts link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    <li class="item">
+                        <a class="contacts link" href="mailto:info@devstudio.com">
+                            <svg class="mail-icon"><use href="./img/symbol-defs2.svg#icon-mail"></use></svg>
+                            info@devstudio.com</a>
+                    </li>
+                    <li class="item">
+                        <a class="contacts link" href="tel:+380961111111">
+                            <svg class="mail-icon"><use href="./img/symbol-defs2.svg#icon-phone"></use></svg>
+                            +38 096 111 11 11</a>
+                    </li>
                 </ul>
             
             </address>
@@ -39,33 +45,46 @@
     <main>
         
             <!--герой-->
+    <div class="hero-bgc">
         <section class="hero content">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
             <a class="button-link link" href="">Заказать услугу</a>
         </section>
-              
+    </div>    
 
             <!--Преимущества-->
             
         <section class="section-margin content">
             <h2 class="killer-margin">Наши преимущества</h2> <!--делаем не видимым в css, обозначает блок информации-->
             <ul class="advantages list">
-                <li class="advantages-item"> <div class="pict_position"><img src="./img/antenna_1.png" alt="antenna"></div>
+                <li class="advantages-item"> 
+                    <div class="pict_position">
+                        <svg class="advantages-icon"><use href="../img/symbol-defs2.svg#icon-antena"></use></svg>
+                    </div>
                     <h3 class="section-title">Внимание к деталям</h3> 
                     <p class="section-item">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>   
                 </li>
 
-                <li class="advantages-item"> <div class="pict_position"> <img src="./img/Vector.png" alt="vector"></div>
+                <li class="advantages-item">
+                    <div class="pict_position">
+                        <svg class="advantages-icon"><use href="../img/symbol-defs2.svg#icon-clock"></use></svg>
+                    </div>
                     <h3 class="section-title">Пунктуальность</h3>
                     <p class="section-item">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p> 
                 </li>
 
-                <li class="advantages-item"> <div class="pict_position"> <img src="./img/diagram_1.png" alt="diagram"></div>
+                <li class="advantages-item">
+                    <div class="pict_position">
+                        <svg class="advantages-icon"><use href="../img/symbol-defs2.svg#icon-diagram"></use></svg>
+                    </div>
                     <h3 class="section-title">Планирование</h3> 
                     <p class="section-item">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
 
-                <li class="advantages-item"> <div class="pict_position"> <img src="./img/astronaut_1.png" alt="astronaut"></div>
+                <li class="advantages-item">
+                    <div class="pict_position">
+                        <svg class="advantages-icon"><use href="../img/symbol-defs2.svg#icon-astronaut"></use></svg>
+                    </div>
                     <h3 class="section-title">Современные технологии</h3>
                     <p class="section-item">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>  
                 </li>
@@ -100,11 +119,27 @@
                     <h3 class="name">Николай Кучеренко</h3>
                     <p class="function">Product Designer</p> 
                     <!-- список пока не стилизуем, чтобы его было видно визуально -->
-                        <ul class="social">  
-                            <li class="social-item"><a href="" aria-label="instagram"></a></li>
-                            <li class="social-item"><a href="" aria-label="twitter"></a></li>
-                            <li class="social-item"><a href="" aria-label="facebook"></a></li>
-                            <li class="social-item"><a href="" aria-label="in"></a></li>
+                        <ul class="social list">  
+                            <li class="social-item"><a href="" aria-label="instagram">
+                                <svg class="social-icon">
+                                <use href="./img/symbol-defs2.svg#icon-instagram"></use>
+                                </svg></a>
+                            </li>
+                            <li class="social-item"><a href="" aria-label="twitter">
+                                <svg class="social-icon">
+                                <use href="./img/symbol-defs2.svg#icon-twitter"></use>
+                                </svg></a>
+                            </li>
+                            <li class="social-item"><a href="" aria-label="facebook">
+                                <svg class="social-icon">
+                                <use href="./img/symbol-defs2.svg#icon-facebook"></use>
+                                </svg></a>
+                            </li>
+                            <li class="social-item"><a href="" aria-label="in">
+                                <svg class="social-icon">
+                                <use href="./img/symbol-defs2.svg#icon-linkedin"></use>
+                                </svg></a>
+                            </li>
                         </ul>
                         <!--По рекомендации Максима убрали иконки соцсетей, сделаем их в css-->
                 </li>
@@ -115,11 +150,27 @@
                     <h3 class="name">Ольга Иванова</h3>
                     <p class="function">Frontend Developer</p> 
                     <!-- список пока не стилизуем, чтобы его было видно визуально -->
-                    <ul class="social">
-                        <li class="social-item"><a href="" aria-label="instagram"></a></li>
-                        <li class="social-item"><a href="" aria-label="twitter"></a></li>
-                        <li class="social-item"><a href="" aria-label="facebook"></a></li>
-                        <li class="social-item"><a href="" aria-label="in"></a></li>
+                    <ul class="social list">  
+                        <li class="social-item"><a href="" aria-label="instagram">
+                            <svg class="social-icon">
+                            <use href="./img/symbol-defs2.svg#icon-instagram"></use>
+                            </svg></a>
+                        </li>
+                        <li class="social-item"><a href="" aria-label="twitter">
+                            <svg class="social-icon">
+                            <use href="./img/symbol-defs2.svg#icon-twitter"></use>
+                            </svg></a>
+                        </li>
+                        <li class="social-item"><a href="" aria-label="facebook">
+                            <svg class="social-icon">
+                            <use href="./img/symbol-defs2.svg#icon-facebook"></use>
+                            </svg></a>
+                        </li>
+                        <li class="social-item"><a href="" aria-label="in">
+                            <svg class="social-icon">
+                            <use href="./img/symbol-defs2.svg#icon-linkedin"></use>
+                            </svg></a>
+                        </li>
                     </ul>
                 </li>
 
@@ -128,11 +179,27 @@
                     <h3 class="name">Андрей Шевченко</h3>
                     <p class="function">Marketing</p> 
                     <!-- список пока не стилизуем, чтобы его было видно визуально -->
-                    <ul class="social">
-                        <li class="social-item"><a href="" aria-label="instagram"></a></li>
-                        <li class="social-item"><a href="" aria-label="twitter"></a></li>
-                        <li class="social-item"><a href="" aria-label="facebook"></a></li>
-                        <li class="social-item"><a href="" aria-label="in"></a></li>
+                    <ul class="social list">  
+                        <li class="social-item"><a href="" aria-label="instagram">
+                            <svg class="social-icon">
+                            <use href="./img/symbol-defs2.svg#icon-instagram"></use>
+                            </svg></a>
+                        </li>
+                        <li class="social-item"><a href="" aria-label="twitter">
+                            <svg class="social-icon">
+                            <use href="./img/symbol-defs2.svg#icon-twitter"></use>
+                            </svg></a>
+                        </li>
+                        <li class="social-item"><a href="" aria-label="facebook">
+                            <svg class="social-icon">
+                            <use href="./img/symbol-defs2.svg#icon-facebook"></use>
+                            </svg></a>
+                        </li>
+                        <li class="social-item"><a href="" aria-label="in">
+                            <svg class="social-icon">
+                            <use href="./img/symbol-defs2.svg#icon-linkedin"></use>
+                            </svg></a>
+                        </li>
                     </ul>
                 </li>
 
@@ -141,11 +208,27 @@
                     <h3 class="name">Иван Николаев</h3>
                     <p class="function">UI Designer</p> 
                     <!-- список пока не стилизуем, чтобы его было видно визуально -->
-                    <ul class="social"> 
-                        <li class="social-item"><a href="" aria-label="instagram"></a></li>
-                        <li class="social-item"><a href="" aria-label="twitter"></a></li>
-                        <li class="social-item"><a href="" aria-label="facebook"></a></li>
-                        <li class="social-item"><a href="" aria-label="in"></a></li>
+                    <ul class="social list">  
+                        <li class="social-item"><a href="" aria-label="instagram">
+                            <svg class="social-icon">
+                            <use href="./img/symbol-defs2.svg#icon-instagram"></use>
+                            </svg></a>
+                        </li>
+                        <li class="social-item"><a href="" aria-label="twitter">
+                            <svg class="social-icon">
+                            <use href="./img/symbol-defs2.svg#icon-twitter"></use>
+                            </svg></a>
+                        </li>
+                        <li class="social-item"><a href="" aria-label="facebook">
+                            <svg class="social-icon">
+                            <use href="./img/symbol-defs2.svg#icon-facebook"></use>
+                            </svg></a>
+                        </li>
+                        <li class="social-item"><a href="" aria-label="in">
+                            <svg class="social-icon">
+                            <use href="./img/symbol-defs2.svg#icon-linkedin"></use>
+                            </svg></a>
+                        </li>
                     </ul>
                 </li>
             </ul>
@@ -183,12 +266,28 @@
             </div>
             <div class="column-two"> 
                 <p class="connecting">присоединяйтесь</p>
-                    <ul class="social">
-                        <li class="social-item"><a href="" aria-label="instagram"></a></li>
-                        <li class="social-item"><a href="" aria-label="twitter"></a></li>
-                        <li class="social-item"><a href="" aria-label="facebook"></a></li>
-                        <li class="social-item"><a href="" aria-label="in"></a></li>
-                    </ul>
+                <ul class="social list">  
+                    <li class="social-item"><a href="" aria-label="instagram">
+                        <svg class="social-icon">
+                        <use href="./img/symbol-defs2.svg#icon-instagram"></use>
+                        </svg></a>
+                    </li>
+                    <li class="social-item"><a href="" aria-label="twitter">
+                        <svg class="social-icon">
+                        <use href="./img/symbol-defs2.svg#icon-twitter"></use>
+                        </svg></a>
+                    </li>
+                    <li class="social-item"><a href="" aria-label="facebook">
+                        <svg class="social-icon">
+                        <use href="./img/symbol-defs2.svg#icon-facebook"></use>
+                        </svg></a>
+                    </li>
+                    <li class="social-item"><a href="" aria-label="in">
+                        <svg class="social-icon">
+                        <use href="./img/symbol-defs2.svg#icon-linkedin"></use>
+                        </svg></a>
+                    </li>
+                </ul>
             </div>       
         </div>       
                 <p class="developed">2020 | Developed by GoIT Students </p>
