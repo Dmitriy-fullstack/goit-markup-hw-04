@@ -222,32 +222,50 @@ fill: #fff;
 .clients-icon1 {
 width: 44px;
 height: 49px;
+fill: #AFB1B8;
 }
+
+   
+
 
 .clients-icon2 {
     width: 40px;
     height: 52px;
+    fill: #AFB1B8;
     }
 
 .clients-icon3 {
     width: 41px;
     height: 43px;
+    fill: #AFB1B8;
     }
 
 .clients-icon4 {
     width: 80px;
     height: 42px;
+    fill: #AFB1B8;
     }
 
 .clients-icon5 {
     width: 59px;
     height: 47px;
+    fill: #AFB1B8;
     }
 
 .clients-icon6 {
     width: 89px;
     height: 46px;
+    fill: #AFB1B8;
     }
+
+.clients-item :hover svg, .clients-item :focus svg{
+    fill: var(--accent-color);
+    border-color: var(--accent-color);
+}
+    
+
+
+
 
 .footer .social-icon {
     fill: white;
