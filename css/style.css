@@ -427,10 +427,15 @@ fill: #AFB1B8;
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--white-color);
+    color: rgba(255, 255, 255, 0.4);
     margin-top: 0;
     margin-bottom: 0;
     
+}
+
+.dev_border {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 18px;
 }
 .button {
     font-family: Roboto;
@@ -462,6 +467,7 @@ margin-left: auto;
 
 .footer {
     background-color: #2F303A;
+    padding-bottom: 21px;
 }
 
 .footer-address .link {
@@ -477,6 +483,7 @@ color: rgba(255, 255, 255, 0.6);
     display: flex;
     justify-content: start;
     align-items: baseline;
+    margin-bottom: 28px;
 }
 .tel-mail {
     display: flex;
